@@ -3,12 +3,41 @@
 {% block title %}Skills{% endblock %}
 
 {% block content %}
-<h2>Technical Skills</h2>
-<ul>
-    <li>Python, Java, Kotlin, JavaScript</li>
-    <li>Django, Bootstrap, HTML, CSS</li>
-    <li>SQL, PostgreSQL, MongoDB, Firebase</li>
-    <li>Data Analysis (Python)</li>
-    <li>Cybersecurity & NLP Research</li>
-</ul>
+<div class="container mt-5">
+    <h2 class="mb-4">Technical Skills</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Programming Languages</h5>
+                    <p class="card-text">Python, Java, Kotlin, JavaScript</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Web & App Development</h5>
+                    <p class="card-text">Django, HTML, CSS, Bootstrap, React (future)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Databases</h5>
+                    <p class="card-text">PostgreSQL, MongoDB, Firebase</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Research & Security</h5>
+                    <p class="card-text">Cybersecurity, Natural Language Processing, Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
